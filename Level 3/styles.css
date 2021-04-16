@@ -1,0 +1,97 @@
+html,
+body {
+  background-color: #c3cfe2;
+  margin: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  white-space: pre;
+  color: white;
+}
+
+.social__image {
+  margin: 20px;
+  width: 50px;
+}
+
+.social__blog {
+  bottom: 400px;
+  background-color: #e17b77;
+  margin: 0;
+  position: fixed;
+  right: 0px;
+  width: 90px;
+  height: 80px;
+  transition: width 500ms ease-out;
+  display: flex;
+  align-items: center;
+}
+.social__blog:hover {
+  width: 270px;
+}
+
+.social__twitter {
+  bottom: 320px;
+  background-color: #00aced;
+  margin: 0;
+  position: fixed;
+  right: 0px;
+  width: 90px;
+  height: 80px;
+  transition: width 500ms ease-out;
+  display: flex;
+  align-items: center;
+}
+.social__twitter:hover {
+  width: 270px;
+}
+
+.social__linkedin {
+  bottom: 240px;
+  background-color: #007bb6;
+  margin: 0;
+  position: fixed;
+  right: 0px;
+  width: 90px;
+  height: 80px;
+  transition: width 500ms ease-out;
+  display: flex;
+  align-items: center;
+}
+.social__linkedin:hover {
+  width: 270px;
+}
+
+.social__facebook {
+  bottom: 160px;
+  background-color: #3b5998;
+  margin: 0;
+  position: fixed;
+  right: 0px;
+  width: 90px;
+  height: 80px;
+  transition: width 500ms ease-out;
+  display: flex;
+  align-items: center;
+}
+.social__facebook:hover {
+  width: 270px;
+}
+
+.social__github {
+  bottom: 80px;
+  background-color: #333;
+  margin: 0;
+  position: fixed;
+  right: 0px;
+  width: 90px;
+  height: 80px;
+  transition: width 500ms ease-out;
+  display: flex;
+  align-items: center;
+}
+.social__github:hover {
+  width: 270px;
+}/*# sourceMappingURL=styles.css.map */
